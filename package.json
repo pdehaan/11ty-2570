@@ -3,13 +3,20 @@
   "description": "",
   "version": "1.0.0",
   "author": "Peter deHaan <peter@deseloper.com>",
-  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-2570/issues"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2"
   },
+  "homepage": "https://github.com/pdehaan/11ty-2570#readme",
   "keywords": [],
   "license": "MPL-2.0",
   "main": ".eleventy.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-2570.git"
+  },
   "scripts": {
     "build": "eleventy",
     "postbuild": "npx prettier www --write --loglevel=warn",
